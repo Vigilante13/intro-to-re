@@ -1,8 +1,9 @@
-## Welcome to GitHub Pages
+## Purpose of this site
+The purpose of my document is to introduce people to the field of reverse engineering, provide some resources and tips for future job interviews and inform people about specific steps and processes they can follow if they want to approach a problem using reverse engineering.
 
-You can use the [editor on GitHub](https://github.com/Vigilante13/intro-to-re/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+If you already are familiar with Reverse Engineering, then I suggest skipping the "Introduction" Section and going immediately to the "Tools" section.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Otherwise, start with the "Introduction" section to familiarize yourself with the topic of Reverse Engineering
 
 ### Markdown
 
