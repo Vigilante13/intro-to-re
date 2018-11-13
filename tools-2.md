@@ -83,3 +83,5 @@ If we manually calcuate from our input of `10`:
 ```
 
 So, this is an example of how we can use a debugger to step through the execution of a program and note any relevant features of it.
+
+In the final section we are going to talk about [Decompilers](https://vigilante13.github.io/intro-to-re/tools-3.html).
