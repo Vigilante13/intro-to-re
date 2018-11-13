@@ -46,11 +46,9 @@ If we take a look at `secret_function`, we see that it takes our input and does 
 
 Notice that the computations done here can easily be reversed!
 
-```c 
->> 2
-``` represents a right shift by the amount of ```2```. To reverse it, we can simply do `c << 2`, which is a left shift of amount `2.`
+`>> 2` represents a right shift by the amount of ```2```. To reverse it, we can simply do `<< 2`, which is a left shift of amount `2.`
 
-Similarly, `c - 1` reversed is `c + 1`. Then finally we have `c ^ 48.` The properties of xor tells us that:
+Similarly, `- 1` reversed is `+ 1`. Then finally we have `^ 48.` The properties of xor tells us that:
 ```c
 a ^ b = c
 b ^ c = a
@@ -60,11 +58,15 @@ So, we can reverse this by doing `48 ^ 91`, where `91` is our desired output.
 
 Combining all of this together, in order to reverse:
 
-`c (((input >> 2) - 1) ^ 48) == 91`
+```c 
+(((input >> 2) - 1) ^ 48) == 91
+```
 
 We can do the following:
 
-`c ((91 ^ 48) + 1) << 2`
+```c 
+((91 ^ 48) + 1) << 2
+```
 
 Calculating this gives us `432`. Lets see if it works:
 ```shell
