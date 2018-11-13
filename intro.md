@@ -32,6 +32,14 @@ int main() {
 }
 ```
 
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+
 So, our program is very simple. It prompts the user for an int and passes it through a function that checks if the result is `91`.
 
 Normally, a person would just brute force integer values starting from 0 until they get the desired result, since `secret_function` is just computing an integer value. 
