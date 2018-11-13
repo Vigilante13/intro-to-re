@@ -10,3 +10,4 @@ IDA offers HexRays, which translates machine code into a higher language pseudoc
 
 Lets compare our `C` code in our example program to what IDA's attempt at decompiling it.
 
+This is all the tools I have to discuss. In the final section I will talk about [Jobs/Interviews](https://vigilante13.github.io/intro-to-re/jobs.html)
