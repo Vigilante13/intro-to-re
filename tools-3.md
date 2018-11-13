@@ -58,6 +58,8 @@ int __cdecl main(int argc, const char **argv, const char **envp)
 // 1050: using guessed type int __fastcall __isoc99_scanf(_QWORD, _QWORD);
 ```
 
-IDA uses the system function name, but besides that it appears IDA has correctly decompiled our `C` program! The robustness of a simple decompiler can assist in various techniques of reverse engineering a program.
+IDA uses the system function name, but besides that it appears IDA has correctly decompiled our `C` program! If we didn't have the source code for our example program, using IDA's Decompiler we could've reconstructed the logic and figured out what int makes the program successful.
+
+The robustness of a simple decompiler can assist in various techniques of reverse engineering a program.
 
 This is all the tools I have to discuss. In the final section I will talk about [Jobs/Interviews](https://vigilante13.github.io/intro-to-re/jobs.html)
