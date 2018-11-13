@@ -9,27 +9,28 @@ When you write a program, you often don't think about how you wrote the program.
 
 These are just a few examples that we ask ourselves about the code we write. Having a deeper understanding of code, beyond the surface-level functionality, is a critical technique in reverse engineering. 
 
-Let's dive into a simple C program that I wrote to illustrate the magic of Reverse Engineering:
+Let's dive into a simple `C` program that I wrote to illustrate the magic of Reverse Engineering:
+```C
+#include <unistd.h>
+#include <stdio.h>
+#include <stdint.h>
 
-    #include <unistd.h>
-    #include <stdio.h>
-    #include <stdint.h>
+int secret_function(int input) {
+    return (((input >> 2) - 1) ^ 48);
+}
 
-    int secret_function(int input) {
-        return (((input >> 2) - 1) ^ 48);
+int main() {
+    int x;
+    printf("Please enter a number to check:\n");
+    printf("> ");
+    scanf("%d", &x);
+    if (secret_function(x) == 91) {
+        printf("Congrats! You got it!\n");
+    } else {
+        printf("Nope. Sorry...\n");
     }
-
-    int main() {
-        int x;
-        printf("Please enter a number to check:\n");
-        printf("> ");
-        scanf("%d", &x);
-        if (secret_function(x) == 91) {
-            printf("Congrats! You got it!\n");
-        } else {
-            printf("Nope. Sorry...\n");
-        }
-    }
+}
+```
 
 So, our program is very simple. It prompts the user for an int and passes it through a function that checks if the result is `91`.
 
