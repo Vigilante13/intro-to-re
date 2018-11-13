@@ -18,7 +18,7 @@ If you are in a job interview, here are also some common questions they may ask:
   - Do you have any experience with "X" disassembler?
   - Tell me about any relavant job experience.
   
-Overall, reverse engineering is a very difficult field to start getting into. It requires a lot of knowledge of programming languages and Computer Architectures, included Embedded Systems.
+Overall, reverse engineering is a very difficult field to start getting into. It requires a lot of knowledge of programming languages and computer architectures, including embedded systems.
 
 You have to assess a program creatively and look to see how to document vulnerabilities in a function or attempt to understand program execution using the tools you have at your disposal.
 
