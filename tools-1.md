@@ -12,7 +12,12 @@ A diassembler is a tool that breaks down a compiled program from any high or low
 - Hopper
 
 ### Assembly/Machine Code
-Machine Code or Assembly is code which has been formatted for direct execution by a CPU. Different compilers compile our code into varying machine code for specific Computer Architectures. Examples of Architectures include: AMD, Windows, and PowerPC.
+Machine Code or Assembly is code which has been formatted for direct execution by a CPU. Different compilers compile our code into varying machine code for specific Computer Architectures. 
+
+Examples of Architectures include: 
+- AMD 
+- Windows 
+- PowerPC
 
 Going back to our C program in the previous section:
 
