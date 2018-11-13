@@ -2,7 +2,7 @@
 In this section I'm going to cover various tools that software/hardware engineers use when attempting to reverse engineering a piece of code.
 
 ## Debugger 
-A diassembler is a tool that allows you to execute a program step by step. You can insert breakpoints and print out register values to trace program execution. These utilities are very useful to understand what a program is doing.
+A debugger is a tool that allows you to execute a program step by step. You can insert breakpoints and print out register values to trace program execution. These utilities are very useful to understand what a program is doing.
 
 ### Debugging with GDB
 Using our example program from earlier, here is how we can debug it using GDB, and see what happens to our input at the end `secret_function`.
