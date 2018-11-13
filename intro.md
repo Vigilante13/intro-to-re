@@ -10,7 +10,7 @@ When you write a program, you often don't think about how you wrote the program.
 These are just a few examples that we ask ourselves about the code we write. Having a deeper understanding of code, beyond the surface-level functionality, is a critical technique in reverse engineering. 
 
 Let's dive into a simple `C` program that I wrote to illustrate the magic of Reverse Engineering:
-```C
+```c
 #include <unistd.h>
 #include <stdio.h>
 #include <stdint.h>
