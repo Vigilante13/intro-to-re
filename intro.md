@@ -46,7 +46,7 @@ If we take a look at `secret_function`, we see that it takes our input and does 
 
 Notice that the computations done here can easily be reversed!
 
-`>> 2` represents a right shift by the amount of ```2```. To reverse it, we can simply do `<< 2`, which is a left shift of amount `2.`
+`>> 2` represents a right shift by the amount of `2`. To reverse it, we can simply do `<< 2`, which is a left shift of amount `2`.
 
 Similarly, `- 1` reversed is `+ 1`. Then finally we have `^ 48.` The properties of xor tells us that:
 ```c
