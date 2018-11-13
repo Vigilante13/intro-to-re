@@ -70,8 +70,8 @@ We can do the following:
 `((91 ^ 48) + 1) << 2`
 
 Calculating this gives us `432`. Lets see if it works:
-```Shell
-varuniyer@VarunPC:/mnt/c/Users/vi021/Desktop$ ./example cd Desktop
+```zsh
+varuniyer@VarunPC:/mnt/c/Users/vi021/Desktop$ ./example
 Please enter a number to check:
 > 432
 Congrats! You got it!
