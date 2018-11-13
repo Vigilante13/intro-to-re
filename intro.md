@@ -40,11 +40,11 @@ However, this is where I want to demonstrate why understanding the program is es
 
 If we take a look at `secret_function`, we see that it takes our input and does the following:
 
-`c (((input >> 2) - 1) ^ 48)` 
+```c (((input >> 2) - 1) ^ 48)```
 
 Notice that the computations done here can easily be reversed!
 
-`c >> 2` represents a right shift by the amount of `2`. To reverse it, we can simply do `c << 2`, which is a left shift of amount `2.`
+```c >> 2``` represents a right shift by the amount of ```2```. To reverse it, we can simply do `c << 2`, which is a left shift of amount `2.`
 
 Similarly, `c - 1` reversed is `c + 1`. Then finally we have `c ^ 48.` The properties of xor tells us that:
 ```c
