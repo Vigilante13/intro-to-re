@@ -1,6 +1,10 @@
 ## Introduction
-The purpose of my document is to introduce people to the field of reverse engineering, provide some resources and tips for future job interviews and inform people about specific steps and processes they can follow if they want to approach a problem using reverse engineering.
+Reverse Engineering is an invaluable skill. Both hardware and software engineers use reverse engineering when debugging code or analyzing a foreign program they encountered with no source code available. The basic techinques of reverse engineering can be applied to any situation involving a simple piece of code.
 
-If you already are familiar with Reverse Engineering, then I suggest skipping the "Introduction" Section and going immediately to the "Tools" section.
+When you write a program, you often don't think about how you wrote the program. You're given a task to code a specific functionality and you write that program in the style that you were taught or learnt. Reverse engineering makes you view your code in a more abstract manner. 
 
-Otherwise, start with the "Introduction" section to familiarize yourself with the topic of Reverse Engineering
+- If someone wrote a similar program, could you identify it by simply looking at the assembly or machine code? 
+- If someone has a bug in their program, could you easily identify the issue? 
+- Are there any system functions you could replace in your code that are more secure and don't have any vulnerabilities to avoid potential hacks? 
+
+These are just a few examples that we ask ourselves about the code we write. Having a deeper understanding of code, beyond the surface-level functionality, is a critical technique in reverse engineering. 
