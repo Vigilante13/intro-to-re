@@ -1,4 +1,4 @@
-# Introduction
+## Jobs/Interviews
 Reverse Engineering has a lot of applications in the industry. Here is a list of common jobs and their relative sectors:
 
 - Information Security
@@ -21,6 +21,8 @@ If you are in a job interview, here are also some common question they may ask:
 Overall, reverse engineering is a very difficult field to start getting into. It requires a lot of knowledge of programming languages and Computer Architectures, included Embedded Systems.
 
 You have to assess a program creatively and look to see how to document vulnerabilities in a function or attempt to understand program execution using the tools you have at your disposal.
+
+## Books/CTFs
 
 If you want to improve your reversing skills, I suggest reading books on Reversing:
 
