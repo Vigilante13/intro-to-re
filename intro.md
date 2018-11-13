@@ -32,3 +32,9 @@ Let's dive into a simple C program that I wrote to illustrate the magic of Rever
     }
 
 So, our program is very simple. It prompts the user for an int and passes it through a function that checks if the result is `91`.
+
+Now, normally, a person would just brute force integer values starting from 0 until they get the desired result, since `secret_function` is just computing an integer value. However, this is where I want to demonstrate why understanding the program is essential.
+
+If we take a look at `secret_function`, we see that it takes our input and does the following:
+
+`(((input >> 2) - 1) ^ 48)` 
