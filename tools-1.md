@@ -138,4 +138,4 @@ Dump of assembler code for function secret_function:
 End of assembler dump.
 (gdb)
 ```
-
+In the next section we are going to talk about [Debuggers](https://vigilante13.github.io/intro-to-re/tools-2.html).
