@@ -12,7 +12,7 @@ Reverse Engineering has a lot of applications in the industry. Here is a list of
   - Logic Analyzers/Oscilloscopes
   - Circuit Debuggers/Emulators
 
-If you are in a job interview, here are also some common question they may ask:
+If you are in a job interview, here are also some common questions they may ask:
   - What tools do you use to assess a binary program?
   - How would go about detecting stack-based attacks in a program?
   - Do you have any experience with "X" disassembler?
