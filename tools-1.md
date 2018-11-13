@@ -45,7 +45,7 @@ int main() {
 
 If we compile this program for a Linux-64bit distribution, we get the following machine code:
 
-```asm
+```assembly
 secret_function(int):
         push    rbp
         mov     rbp, rsp
