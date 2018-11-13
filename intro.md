@@ -71,7 +71,7 @@ We can do the following:
 
 Calculating this gives us `432`. Lets see if it works:
 ```Shell
-varuniyer@VarunPC:/mnt/c/Users/vi021/Desktop$ ./example
+varuniyer@VarunPC:/mnt/c/Users/vi021/Desktop$ ./example cd Desktop
 Please enter a number to check:
 > 432
 Congrats! You got it!
