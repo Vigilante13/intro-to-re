@@ -47,8 +47,8 @@ Notice that the computations done here can easily be reversed!
 
 Similarly, `- 1` reversed is `+ 1`. Then finally we have `^ 48.` The properties of xor tells us that:
 
-`a ^ b = c`
-`b ^ c = a`
+    a ^ b = c
+    b ^ c = a
 
 So, we can reverse this by doing `48 ^ 91`, where `91` is our desired output.
 
