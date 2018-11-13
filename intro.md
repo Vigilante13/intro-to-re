@@ -9,7 +9,7 @@ When you write a program, you often don't think about how you wrote the program.
 
 These are just a few examples that we ask ourselves about the code we write. Having a deeper understanding of code, beyond the surface-level functionality, is a critical technique in reverse engineering. 
 
-One thing I want to note is that reverse engineering, especially in a job-related setting, is not easy. It requires a lot of knowldge in the following areas:
+One thing I want to note is that **reverse engineering, especially in a job-related setting, is not easy.** It requires a lot of knowldge in the following areas:
 
 - Low/High Level Programming Languages (C, C++, Java, Python)
 - Recognizing assembly and their corresponding pseudocode
