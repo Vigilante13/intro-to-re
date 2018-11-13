@@ -62,10 +62,11 @@ We can do the following:
 `((91 ^ 48) + 1) << 2`
 
 Calculating this gives us `432`. Lets see if it works:
-
-    varuniyer@VarunPC:/mnt/c/Users/vi021/Desktop$ ./example
-    Please enter a number to check:
-    > 432
-    Congrats! You got it!
+```bash
+varuniyer@VarunPC:/mnt/c/Users/vi021/Desktop$ ./example
+Please enter a number to check:
+> 432
+Congrats! You got it!
+```
     
 Analyzing our source code can help us avoid using brute force to solve program checkers. In the next section I'm going to over Tools that reverse engineers use to understand program flow and construct scripts to crack the program.
