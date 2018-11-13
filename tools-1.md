@@ -105,7 +105,7 @@ If you would like to know more about assembly, [this site](https://ctf101.org/re
 
 ### Diassembling with GDB
 
-Using our example from before, this is how you would use `GDB` to diassembly the function `secret_function` in our program:
+Using our example from before, this is how you would use `GDB` to diassembe the function `secret_function` in our program:
 
 ```gdb
 varuniyer@VarunPC:/mnt/c/Users/vi021/Desktop$ gdb example
