@@ -76,4 +76,4 @@ Please enter a number to check:
 Congrats! You got it!
 ```
     
-Analyzing our source code can help us avoid using brute force to solve program checkers. In the [next section](https://vigilante13.github.io/intro-to-re/tools.html) I'm going to over Tools that reverse engineers use to understand program flow and construct scripts to crack programs.
+Analyzing our source code can help us avoid using brute force to solve program checkers. In the [next section](https://vigilante13.github.io/intro-to-re/tools-1.html) I'm going to over Tools that reverse engineers use to understand program flow and construct scripts to crack programs.
