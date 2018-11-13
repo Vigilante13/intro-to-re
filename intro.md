@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 Reverse Engineering, in simple terms, can be described as a way to deconstruct code to extract its designs, architechture, or certain knowledge. Both hardware and software engineers use reverse engineering when debugging code or analyzing a foreign program they encountered with no source code available. The basic techinques of reverse engineering can be applied to any situation involving a simple piece of code.
 
 When you write a program, you often don't think about how you wrote the program. You're given a task to code a specific functionality and you write that program in the style that you were taught or learnt. Reverse engineering makes you view your code in a more abstract manner. 
